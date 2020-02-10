@@ -40,11 +40,17 @@ else{
     console.log('no result');
 }
 
-// const getUserId = url.searchParams.get('userId');
-// console.log(getUserId)
+const getUserId = url.searchParams.get('userId');
+console.log(getUserId)
 
-// question
-// question
+question 5
+const container = document.querySelector('.container');
+const btn = document.querySelector('.btn');
+container.removeChild(btn);
+
+// question 6
+
+
 // question
 // question
 // question
